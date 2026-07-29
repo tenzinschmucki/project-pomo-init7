@@ -1,36 +1,94 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Init7 Promotion
+
+A simple, multilingual landing page built with Next.js for the Init7 referral program. The project focuses on performance, accessibility and technical SEO while providing users with clear information about the current referral offer.
+
+## Features
+
+* Next.js 15 (App Router)
+* TypeScript
+* Tailwind CSS
+* Internationalisation (DE, EN, FR, IT)
+* SEO-optimised metadata
+* XML sitemap
+* Robots.txt
+* Responsive design
+* Vercel deployment
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
+
+* Node.js 20+
+* npm (or pnpm/yarn)
+
+### Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/tenzinschmucki/project-pomo-init7.git
+cd project-pomo-init7
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The application reloads automatically whenever files are modified.
 
-## Learn More
+## Available Scripts
 
-To learn more about Next.js, take a look at the following resources:
+```bash
+npm run dev      # Start development server
+npm run build    # Create production build
+npm run start    # Run production server
+npm run lint     # Run linting
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```text
+src/
+├── app/            # App Router pages
+├── components/     # Reusable UI components
+├── config/         # Project configuration
+├── i18n/           # Internationalisation
+├── lib/            # Shared utilities
+└── middleware.ts   # Locale routing
+```
 
-## Deploy on Vercel
+## Deployment
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The project is configured for deployment on Vercel.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Every push to the `main` branch automatically triggers a new production deployment.
+
+## Tech Stack
+
+* Next.js
+* React
+* TypeScript
+* Tailwind CSS
+* Vercel
+
+## Contributing
+
+Issues and pull requests are welcome. Please open an issue first if you plan to make significant changes.
+
+## License
+
+This project is provided for educational and demonstration purposes.
