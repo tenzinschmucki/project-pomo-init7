@@ -1,10 +1,5 @@
 # Init7 Promotion
-
-<<<<<<< HEAD
 A simple, multilingual landing page built with Next.js for the Init7 referral program. The project focuses on performance, accessibility and technical SEO while providing users with clear information about the current referral offer.
-=======
-A modern, multilingual landing page built with Next.js for the Init7 referral programme. The project focuses on performance, accessibility and technical SEO while providing users with clear information about the current referral offer.
->>>>>>> e8f02d2 (Remove unused SeoContent component and update related files)
 
 ## Features
 
