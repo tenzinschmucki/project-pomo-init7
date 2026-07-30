@@ -4,7 +4,6 @@ import { Timeline } from '@/components/Timeline';
 import { Benefits } from '@/components/Benefits';
 import { FAQ } from '@/components/FAQ';
 import { OfficialSection } from '@/components/OfficialSection';
-import { SeoContent } from '@/components/SeoContent';
 
 export default function HomePage() {
   return (
@@ -19,7 +18,6 @@ export default function HomePage() {
       <Benefits />
       <FAQ />
       <OfficialSection />
-      <SeoContent />
     </>
   );
 }

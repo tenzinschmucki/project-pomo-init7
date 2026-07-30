@@ -9,5 +9,5 @@ export const OFFICIAL_LINKS = {
   it: 'https://www.init7.net/it/init7-empfehlen',
 } as const;
 
-export const SITE_URL = 'https://init7-empfehlungscode.ch';
+export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL || 'https://init7-code.ch';
 export const SITE_NAME = 'Init7 Referral Code';
