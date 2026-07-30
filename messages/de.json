@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Mit dem Init7-Empfehlungscode CHF 111 sparen",
-    "subheadline": "Kopiere den Empfehlungscode und gib ihn beim Bestellen ein, um deinen CHF 111 Rabatt auf jedes Init7-Abo zu erhalten.",
+        "subheadline": "Kopiere den Empfehlungscode und gib ihn beim Bestellen ein, um deinen CHF 111 Rabatt auf die Hardware zu erhalten.",
     "cta": "Empfehlungscode kopieren"
   },
   "referral": {
@@ -41,7 +41,7 @@
       },
       {
         "title": "CHF 111 Rabatt erhalten",
-        "description": "Erhalte einen Rabatt von CHF 111 auf dein Abonnement."
+        "description": "Erhalte einen Rabatt von CHF 111 auf die Hardware."
       }
     ]
   },
@@ -50,7 +50,7 @@
     "cards": [
       {
         "title": "CHF 111 Rabatt",
-        "description": "Verwende den Init7-Empfehlungscode und erhalte den verfügbaren CHF 111 Rabatt auf dein Abonnement."
+        "description": "Verwende den Init7-Empfehlungscode und erhalte den verfügbaren CHF 111 Rabatt auf die Hardware."
       },
       {
         "title": "Ein-Klick-Kopie",
@@ -79,7 +79,7 @@
       },
       {
         "question": "Welchen Rabatt erhalte ich?",
-        "answer": "Du erhältst einen Rabatt von CHF 111 auf dein Init7-Abonnement, wenn du den Empfehlungscode während des Bestellvorgangs eingibst."
+        "answer": "Du erhältst einen Rabatt von CHF 111 auf die Hardware, wenn du den Empfehlungscode während des Bestellvorgangs eingibst."
       },
       {
         "question": "Funktioniert der Empfehlungscode noch?",
@@ -87,7 +87,7 @@
       },
       {
         "question": "Ist der Init7-Empfehlungscode ein Gutschein?",
-        "answer": "Der Init7-Empfehlungscode funktioniert wie ein Gutschein oder Rabattcode. Du gibst ihn während des Bestellvorgangs ein und erhältst einen Rabatt von CHF 111 auf dein Abonnement."
+        "answer": "Der Init7-Empfehlungscode funktioniert wie ein Gutschein oder Rabattcode. Du gibst ihn während des Bestellvorgangs ein und erhältst einen Rabatt von CHF 111 auf die Hardware."
       },
       {
         "question": "Für welche Abonnements gilt der Init7-Rabatt?",
@@ -107,16 +107,6 @@
   "footer": {
     "independent": "Diese Website erklärt, wie der Init7-Empfehlungscode verwendet wird. Erfahre, wie du den verfügbaren CHF 111 Rabatt erhältst. Programminformationen und Teilnahmebedingungen findest du bei Init7.",
     "trademark": "Diese Website steht in keiner offiziellen Verbindung zur Init7 AG."
-  },
-  "seoContent": {
-    "title": "Init7 Empfehlungscode, Rabatt, Gutschein und Code",
-    "intro": "Der Init7-Empfehlungscode gewährt Neukunden einen Rabatt von CHF 111 auf Init7-Abonnements. Egal ob du einen Init7-Empfehlungscode, Init7-Rabatt, Init7-Gutschein oder Init7-Code suchst, diese Seite bietet den aktuellen Code und eine Schritt-für-Schritt-Anleitung zur Einlösung.",
-    "codeTitle": "Init7 Empfehlungscode",
-    "codeDescription": "Der Init7-Empfehlungscode ist ein Aktionscode, der während des Bestellvorgangs bei Init7 eingegeben werden kann. Neukunden erhalten einen Rabatt von CHF 111 auf ihr Abonnement. Der Code ist Teil des Init7-Empfehlungsprogramms.",
-    "howToTitle": "So verwendest du den Init7-Code",
-    "howToDescription": "Um den Init7-Code zu verwenden, kopiere den Code von dieser Seite, gehe zur Init7-Website, wähle dein Abonnement und gib den Code während des Bestellvorgangs ein. Der Rabatt von CHF 111 wird automatisch angewendet.",
-    "discountTitle": "Init7 Rabatt und Gutschein",
-    "discountDescription": "Der Init7-Rabatt funktioniert wie ein Gutschein: Gib den Empfehlungscode beim Bestellen ein und erhalte CHF 111 Rabatt auf dein Abonnement. Der Rabatt ist für neue Init7-Kunden über das Empfehlungsprogramm verfügbar."
   },
   "language": {
     "de": "Deutsch",

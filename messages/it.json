@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Risparmia CHF 111 con il codice invito Init7",
-    "subheadline": "Copia il codice invito e inseriscilo durante il checkout per ricevere il tuo sconto di CHF 111 su qualsiasi abbonamento Init7.",
+        "subheadline": "Copia il codice invito e inseriscilo durante il checkout per ricevere il tuo sconto di CHF 111 sull'hardware.",
     "cta": "Copia il codice invito"
   },
   "referral": {
@@ -41,7 +41,7 @@
       },
       {
         "title": "Ricevi CHF 111 di sconto",
-        "description": "Ricevi uno sconto di CHF 111 sul tuo abbonamento."
+        "description": "Ricevi uno sconto di CHF 111 sull'hardware."
       }
     ]
   },
@@ -50,7 +50,7 @@
     "cards": [
       {
         "title": "Sconto di CHF 111",
-        "description": "Usa il codice invito Init7 e ricevi lo sconto disponibile di CHF 111 sul tuo abbonamento."
+        "description": "Usa il codice invito Init7 e ricevi lo sconto disponibile di CHF 111 sull'hardware."
       },
       {
         "title": "Copia con un clic",
@@ -79,7 +79,7 @@
       },
       {
         "question": "Quale sconto ricevo?",
-        "answer": "Ricevi uno sconto di CHF 111 sul tuo abbonamento Init7 quando inserisci il codice invito durante il checkout."
+        "answer": "Ricevi uno sconto di CHF 111 sull'hardware quando inserisci il codice invito durante il checkout."
       },
       {
         "question": "Il codice invito funziona ancora?",
@@ -87,7 +87,7 @@
       },
       {
         "question": "Il codice invito Init7 è un codice sconto o un buono?",
-        "answer": "Il codice invito Init7 funziona come un codice sconto o un buono. Lo inserisci durante il checkout per ricevere uno sconto di CHF 111 sul tuo abbonamento."
+        "answer": "Il codice invito Init7 funziona come un codice sconto o un buono. Lo inserisci durante il checkout per ricevere uno sconto di CHF 111 sull'hardware."
       },
       {
         "question": "A quali abbonamenti si applica lo sconto Init7?",
@@ -107,16 +107,6 @@
   "footer": {
     "independent": "Questo sito spiega come usare il codice invito Init7. Scopri come ricevere lo sconto disponibile di CHF 111. Le informazioni sul programma e le condizioni di partecipazione sono disponibili su Init7.",
     "trademark": "Questo sito non è ufficialmente affiliato a Init7 AG."
-  },
-  "seoContent": {
-    "title": "Codice invito Init7, sconto, codice sconto e buono",
-    "intro": "Il codice invito Init7 offre ai nuovi clienti uno sconto di CHF 111 sugli abbonamenti Init7. Che tu stia cercando un codice invito Init7, uno sconto Init7, un codice sconto Init7 o un buono Init7, questa pagina fornisce il codice attuale e una guida passo per passo per utilizzarlo.",
-    "codeTitle": "Codice invito Init7",
-    "codeDescription": "Il codice invito Init7 è un codice promozionale che può essere inserito durante il processo di acquisto su Init7. I nuovi clienti ricevono uno sconto di CHF 111 sul loro abbonamento. Il codice fa parte del programma di invito di Init7.",
-    "howToTitle": "Come usare il codice sconto Init7",
-    "howToDescription": "Per usare il codice sconto Init7, copia il codice da questa pagina, vai sul sito di Init7, scegli il tuo abbonamento e inserisci il codice durante il checkout. Lo sconto di CHF 111 viene applicato automaticamente.",
-    "discountTitle": "Sconto Init7 e buono",
-    "discountDescription": "Lo sconto Init7 funziona come un buono: inserisci il codice invito durante il checkout e ricevi CHF 111 di sconto sul tuo abbonamento. Lo sconto è disponibile per i nuovi clienti Init7 tramite il programma di invito."
   },
   "language": {
     "de": "Deutsch",

@@ -9,7 +9,7 @@
   },
   "hero": {
     "headline": "Save CHF 111 with the Init7 Referral Code",
-    "subheadline": "Copy the referral code and enter it during checkout to receive your CHF 111 discount on any Init7 subscription.",
+        "subheadline": "Copy the referral code and enter it during checkout to receive your CHF 111 discount on hardware.",
     "cta": "Copy Referral Code"
   },
   "referral": {
@@ -41,7 +41,7 @@
       },
       {
         "title": "Receive CHF 111 Discount",
-        "description": "Receive a CHF 111 discount on your subscription."
+        "description": "Receive a CHF 111 discount on hardware."
       }
     ]
   },
@@ -50,7 +50,7 @@
     "cards": [
       {
         "title": "CHF 111 Discount",
-        "description": "Use the Init7 referral code and receive the available CHF 111 discount on your subscription."
+        "description": "Use the Init7 referral code and receive the available CHF 111 discount on hardware."
       },
       {
         "title": "One-Click Copy",
@@ -79,7 +79,7 @@
       },
       {
         "question": "What discount do I receive?",
-        "answer": "You receive a CHF 111 discount on your Init7 subscription when you enter the referral code during checkout."
+        "answer": "You receive a CHF 111 discount on hardware when you enter the referral code during checkout."
       },
       {
         "question": "Does the referral code still work?",
@@ -87,7 +87,7 @@
       },
       {
         "question": "Is the Init7 referral code a voucher or promo code?",
-        "answer": "The Init7 referral code works like a voucher or promo code. You enter it during checkout to receive a CHF 111 discount on your subscription."
+        "answer": "The Init7 referral code works like a voucher or promo code. You enter it during checkout to receive a CHF 111 discount on hardware."
       },
       {
         "question": "Which subscriptions does the Init7 discount apply to?",
@@ -107,16 +107,6 @@
   "footer": {
     "independent": "This website explains how to use the Init7 referral code. Learn how to receive the available CHF 111 discount. Programme information and participation conditions are available on Init7.",
     "trademark": "This website is not officially affiliated with Init7 AG."
-  },
-  "seoContent": {
-    "title": "Init7 Referral Code, Discount, Voucher and Promo Code",
-    "intro": "The Init7 referral code gives new customers a CHF 111 discount on Init7 subscriptions. Whether you are looking for an Init7 referral code, Init7 discount, Init7 voucher, or Init7 promo code, this page provides the current code and a step-by-step guide to redeeming it.",
-    "codeTitle": "Init7 Referral Code",
-    "codeDescription": "The Init7 referral code is a promotional code that can be entered during the Init7 checkout process. New customers receive a CHF 111 discount on their subscription. The code is part of the Init7 referral programme.",
-    "howToTitle": "How to Use the Init7 Promo Code",
-    "howToDescription": "To use the Init7 promo code, copy the code from this page, go to the Init7 website, choose your subscription, and enter the code during checkout. The CHF 111 discount is applied automatically.",
-    "discountTitle": "Init7 Discount and Voucher",
-    "discountDescription": "The Init7 discount works like a voucher: enter the referral code at checkout and receive CHF 111 off your subscription. The discount is available to new Init7 customers through the referral programme."
   },
   "language": {
     "de": "Deutsch",
