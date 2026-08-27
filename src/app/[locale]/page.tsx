@@ -4,8 +4,15 @@ import { Timeline } from '@/components/Timeline';
 import { Benefits } from '@/components/Benefits';
 import { FAQ } from '@/components/FAQ';
 import { OfficialSection } from '@/components/OfficialSection';
+import { GermanReferralGuide } from '@/components/GermanReferralGuide';
 
-export default function HomePage() {
+type Props = {
+  params: Promise<{ locale: string }>;
+};
+
+export default async function HomePage({ params }: Props) {
+  const { locale } = await params;
+
   return (
     <>
       <Hero />
@@ -17,6 +24,7 @@ export default function HomePage() {
       <Timeline />
       <Benefits />
       <FAQ />
+      {locale === 'de' && <GermanReferralGuide />}
       <OfficialSection />
     </>
   );

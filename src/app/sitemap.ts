@@ -5,15 +5,8 @@ import { SITE_URL } from '@/lib/constants';
 export default function sitemap(): MetadataRoute.Sitemap {
   const entries: MetadataRoute.Sitemap = [];
 
-  // Root URL (redirects to default locale)
-  entries.push({
-    url: SITE_URL,
-    lastModified: new Date(),
-    changeFrequency: 'weekly',
-    priority: 1,
-  });
-
-  // Locale-specific pages with hreflang alternates
+  // Include only canonical, indexable URLs. The root URL redirects to /de and
+  // must not be submitted as a separate sitemap entry.
   for (const locale of locales) {
     entries.push({
       url: `${SITE_URL}/${locale}`,

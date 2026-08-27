@@ -1,16 +1,15 @@
 'use client';
 
 import { useRef, useState, useCallback } from 'react';
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { motion } from 'framer-motion';
 import { CopyButton } from './CopyButton';
-import { REFERRAL_CODE } from '@/lib/constants';
+import { REFERRAL_CODE, REFERRAL_PROGRAM_LAST_VERIFIED } from '@/lib/constants';
 import { CheckCircle } from 'lucide-react';
-
-const VALIDITY_DATE = 'Jul 27, 2026';
 
 export function ReferralCard() {
   const t = useTranslations('referral');
+  const locale = useLocale();
   const cardRef = useRef<HTMLDivElement>(null);
   const [rotateX, setRotateX] = useState(0);
   const [rotateY, setRotateY] = useState(0);
@@ -69,7 +68,16 @@ export function ReferralCard() {
             {/* Validity check */}
             <div className="flex items-center justify-center gap-1.5 text-xs text-muted-foreground/70">
               <CheckCircle className="w-3.5 h-3.5 text-green-500" aria-hidden="true" />
-              <span>{t('validity')} · {VALIDITY_DATE}</span>
+              <span>
+                {t('validity')} ·{' '}
+                <time dateTime={REFERRAL_PROGRAM_LAST_VERIFIED}>
+                  {new Intl.DateTimeFormat(locale, {
+                    day: 'numeric',
+                    month: 'long',
+                    year: 'numeric',
+                  }).format(new Date(`${REFERRAL_PROGRAM_LAST_VERIFIED}T12:00:00Z`))}
+                </time>
+              </span>
             </div>
 
             {/* Divider */}

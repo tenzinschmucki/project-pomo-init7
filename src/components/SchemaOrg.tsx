@@ -22,14 +22,6 @@ export async function SchemaOrg({ locale }: SchemaOrgProps) {
     name: SITE_NAME,
     description: description,
     inLanguage: locale,
-    potentialAction: {
-      '@type': 'SearchAction',
-      target: {
-        '@type': 'EntryPoint',
-        urlTemplate: `${SITE_URL}/{locale}`,
-      },
-      'query-input': 'required name=search_term_string',
-    },
   };
 
   const webPageSchema = {

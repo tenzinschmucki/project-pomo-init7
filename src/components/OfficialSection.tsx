@@ -34,7 +34,7 @@ export function OfficialSection() {
           <a
             href={officialLink}
             target="_blank"
-            rel="nofollow noopener noreferrer"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 text-sm font-medium text-primary hover:text-primary/80 transition-colors focus:outline-none focus-visible:ring-2 focus-visible:ring-ring focus-visible:ring-offset-2 rounded-lg px-4 py-2"
             aria-label={t('linkText')}
           >
