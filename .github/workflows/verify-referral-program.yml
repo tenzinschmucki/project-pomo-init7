@@ -1,0 +1,36 @@
+name: Verify Init7 referral programme
+
+on:
+  schedule:
+    - cron: '20 3 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check out the default branch
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+
+      - name: Verify the official programme terms
+        run: node scripts/verify-referral-program.mjs
+
+      - name: Commit a successful verification date
+        run: |
+          if git diff --quiet -- src/data/referral-program-status.json; then
+            exit 0
+          fi
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add src/data/referral-program-status.json
+          git commit -m 'chore: verify Init7 referral programme'
+          git push

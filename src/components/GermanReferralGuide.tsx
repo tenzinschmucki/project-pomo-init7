@@ -1,5 +1,6 @@
 import { ExternalLink, Info } from 'lucide-react';
 import { OFFICIAL_LINKS, REFERRAL_DISCOUNT, REFERRAL_PROGRAM_LAST_VERIFIED } from '@/lib/constants';
+import { Link } from '@/lib/navigation';
 
 const lastVerifiedLabel = new Intl.DateTimeFormat('de-CH', {
   day: 'numeric',
@@ -62,6 +63,12 @@ export function GermanReferralGuide() {
             Offizielle Init7-Teilnahmebedingungen ansehen
             <ExternalLink className="w-4 h-4" aria-hidden="true" />
           </a>
+          <Link
+            href="/init7-rabatt"
+            className="block mt-5 text-sm font-medium text-primary hover:text-primary/80 transition-colors"
+          >
+            Mehr zum Init7 Rabatt und zu den Voraussetzungen →
+          </Link>
         </div>
       </div>
     </section>

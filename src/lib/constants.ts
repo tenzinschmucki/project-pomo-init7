@@ -1,7 +1,9 @@
+import referralProgramStatus from '@/data/referral-program-status.json';
+
 export const REFERRAL_CODE = '835 119 225 51';
 export const REFERRAL_CODE_COPY = '83511922551';
 export const REFERRAL_DISCOUNT = 'CHF 111';
-export const REFERRAL_PROGRAM_LAST_VERIFIED = '2026-08-26';
+export const REFERRAL_PROGRAM_LAST_VERIFIED = referralProgramStatus.verifiedAt;
 
 export const OFFICIAL_LINKS = {
   de: 'https://www.init7.net/de/init7-empfehlen',

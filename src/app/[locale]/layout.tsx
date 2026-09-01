@@ -7,7 +7,6 @@ import { locales, defaultLocale, type Locale } from '@/config/i18n';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
 import { AnimatedGradient } from '@/components/AnimatedGradient';
-import { SchemaOrg } from '@/components/SchemaOrg';
 import { SITE_URL, SITE_NAME } from '@/lib/constants';
 
 const inter = Inter({
@@ -94,7 +93,6 @@ export default async function LocaleLayout({ children, params }: Props) {
     >
       <head>
         <meta name="color-scheme" content="dark light" />
-        <SchemaOrg locale={locale as Locale} />
       </head>
       <body className="min-h-full flex flex-col font-sans">
         <NextIntlClientProvider messages={messages}>
