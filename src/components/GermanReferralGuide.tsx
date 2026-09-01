@@ -32,10 +32,10 @@ export function GermanReferralGuide({ lastVerified }: Props) {
             Init7-Empfehlungscode einlösen: So erhältst du CHF 111 Rabatt
           </h2>
           <p className="mt-5 text-muted-foreground leading-relaxed">
-            Ein Init7-Empfehlungscode ist ein persönlicher Code eines bestehenden Init7-Kunden.
-            Gib den Code direkt während deiner Bestellung ein. Der Rabatt von {REFERRAL_DISCOUNT} wird
-            einmalig auf die Hardware-Bestellung gutgeschrieben, sofern deine Bestellung die aktuellen
-            Teilnahmebedingungen erfüllt.
+            Ein Init7 Code wird meist als Kurzform für den persönlichen Init7-Empfehlungscode eines
+            bestehenden Kunden verwendet. Gib ihn direkt während deiner Bestellung ein. Der Rabatt von
+            {REFERRAL_DISCOUNT} wird einmalig auf die Hardware-Bestellung gutgeschrieben, sofern deine
+            Bestellung die aktuellen Teilnahmebedingungen erfüllt.
           </p>
 
           <h3 className="mt-8 text-lg font-semibold">So verwendest du den Init7 Code</h3>
