@@ -1,10 +1,11 @@
 import { MetadataRoute } from 'next';
 import { locales, defaultLocale } from '@/config/i18n';
 import { SITE_URL } from '@/lib/constants';
-import referralProgramStatus from '@/data/referral-program-status.json';
+import { getReferralProgramStatus } from '@/lib/referral-program';
 
-export default function sitemap(): MetadataRoute.Sitemap {
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
   const entries: MetadataRoute.Sitemap = [];
+  const referralProgramStatus = await getReferralProgramStatus();
   const lastVerified = new Date(`${referralProgramStatus.verifiedAt}T12:00:00Z`);
 
   // Include only canonical, indexable URLs. The root URL redirects to /de and

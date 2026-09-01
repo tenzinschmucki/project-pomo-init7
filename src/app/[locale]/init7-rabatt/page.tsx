@@ -2,7 +2,8 @@ import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { ExternalLink } from 'lucide-react';
 import { Link } from '@/lib/navigation';
-import { OFFICIAL_LINKS, REFERRAL_DISCOUNT, REFERRAL_PROGRAM_LAST_VERIFIED, SITE_URL } from '@/lib/constants';
+import { OFFICIAL_LINKS, REFERRAL_DISCOUNT, SITE_URL } from '@/lib/constants';
+import { getReferralProgramStatus } from '@/lib/referral-program';
 
 type Props = {
   params: Promise<{ locale: string }>;
@@ -10,6 +11,8 @@ type Props = {
 
 const pagePath = '/de/init7-rabatt';
 const pageUrl = `${SITE_URL}${pagePath}`;
+
+export const revalidate = 86400;
 
 export const metadata: Metadata = {
   title: 'Init7 Rabatt: CHF 111 mit Empfehlungscode auf Hardware',
@@ -34,6 +37,7 @@ export const metadata: Metadata = {
 export default async function Init7RabattPage({ params }: Props) {
   const { locale } = await params;
   if (locale !== 'de') notFound();
+  const referralProgramStatus = await getReferralProgramStatus();
 
   const schema = {
     '@context': 'https://schema.org',
@@ -141,12 +145,12 @@ export default async function Init7RabattPage({ params }: Props) {
 
           <p className="mt-8 text-sm text-muted-foreground">
             Automatisch anhand der offiziellen Init7-Programmbedingungen geprüft am{' '}
-            <time dateTime={REFERRAL_PROGRAM_LAST_VERIFIED}>{new Intl.DateTimeFormat('de-CH', {
+            <time dateTime={referralProgramStatus.verifiedAt}>{new Intl.DateTimeFormat('de-CH', {
               day: 'numeric',
               month: 'long',
               year: 'numeric',
               timeZone: 'Europe/Zurich',
-            }).format(new Date(`${REFERRAL_PROGRAM_LAST_VERIFIED}T12:00:00Z`))}</time>.
+            }).format(new Date(`${referralProgramStatus.verifiedAt}T12:00:00Z`))}</time>.
           </p>
           <a
             href={OFFICIAL_LINKS.de}

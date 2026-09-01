@@ -1,15 +1,19 @@
 import { ExternalLink, Info } from 'lucide-react';
-import { OFFICIAL_LINKS, REFERRAL_DISCOUNT, REFERRAL_PROGRAM_LAST_VERIFIED } from '@/lib/constants';
+import { OFFICIAL_LINKS, REFERRAL_DISCOUNT } from '@/lib/constants';
 import { Link } from '@/lib/navigation';
 
-const lastVerifiedLabel = new Intl.DateTimeFormat('de-CH', {
-  day: 'numeric',
-  month: 'long',
-  year: 'numeric',
-  timeZone: 'Europe/Zurich',
-}).format(new Date(`${REFERRAL_PROGRAM_LAST_VERIFIED}T12:00:00Z`));
+type Props = {
+  lastVerified: string;
+};
 
-export function GermanReferralGuide() {
+export function GermanReferralGuide({ lastVerified }: Props) {
+  const lastVerifiedLabel = new Intl.DateTimeFormat('de-CH', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric',
+    timeZone: 'Europe/Zurich',
+  }).format(new Date(`${lastVerified}T12:00:00Z`));
+
   return (
     <section
       className="py-20 sm:py-28 border-t border-border/50"
@@ -51,7 +55,7 @@ export function GermanReferralGuide() {
           </ul>
 
           <p className="mt-8 pt-6 border-t border-border/50 text-sm text-muted-foreground leading-relaxed">
-            Stand: <time dateTime={REFERRAL_PROGRAM_LAST_VERIFIED}>{lastVerifiedLabel}</time>. Diese unabhängige Seite fasst die
+            Stand: <time dateTime={lastVerified}>{lastVerifiedLabel}</time>. Diese unabhängige Seite fasst die
             öffentlich verfügbaren Bedingungen zusammen und ersetzt nicht die Angaben von Init7.
           </p>
           <a
